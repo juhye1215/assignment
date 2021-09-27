@@ -1,22 +1,20 @@
 [
  {
   "read" : "Technology is rapidly expanding the scope of capabilities for both professional and personal use; such is the case with smart phones. Professionals now have devices available to them capable of digital media, internet access, phone communication, multi-person scheduling and office tools for documents and presentations. Businesspeople that are often mobile may maximize the use of these critical features on smart phones. Individuals who simply enjoy the luxury of multi-function devices often use these devices for frivolous pursuits such as downloading catchy ring tones, instant messaging about the latest gossip and looking up the world record for most cans crushed on one’s head during the Superbowl. This fusion of capabilities and increased availability of such devices could be a sign of a growing blend in society between work and personal life, or individuals could simply be taking a luxurious approach to their connectivity in personal lives",
-   "answers" :{
+   "answers" :
     "is fascinated by the endless capabilities on smart phones.",
     "hopes that technology ceases to expand its scope.",
     "believes that the average individual does not need a smart phone.",
-    "wants to see more developments added to smart phone technology."
-   }, 
+    "wants to see more developments added to smart phone technology.", 
    "correct_answer": 1
 },
 {
   "read" :"Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.",
-   "answers" :{
+   "answers" :
     "For homes in typically colder geographic regions",
     "For people in homes in typically colder geographic regions",
     "For homes in typically cold geographic regions",
-    "People in typically colder geographic regions"
-   }, 
+    "People in typically colder geographic regions", 
    "correct_answer": 1
  }
 ]
