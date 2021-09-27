@@ -8,15 +8,4 @@
 		"wants to see more developments added to smart phone technology."
 	],
   "correct_answer": 1
-},
-{  "type":"Structure Test",
-	"read": "For homes in typically colder geographic regions, it is particularly important to have effective and efficient heating systems.",
-  "question":"Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.",
-	"answers": [
-		"For homes in typically colder geographic regions",
-		"For people in homes in typically colder geographic regions",
-		"For homes in typically cold geographic regions",
-		"People in typically colder geographic regions"
-	],
-	"correct_answer": 1
 }
