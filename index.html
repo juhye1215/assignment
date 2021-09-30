@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Overview</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/basic-style.css" />
+        <link rel="stylesheet" href="https://pearsonux.sfo2.cdn.digitaloceanspaces.com/css/gravity.css" />
+
+        <!-- load tippy -->
+        <script src="https://unpkg.com/tippy.js@4"></script>
+        <!-- Moment JS dependancy - needed for datepicker, timepicker, and the full build -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-range/4.0.2/moment-range.js"></script>
+        <!-- IE Polyfills -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.2.0/webcomponents-loader.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.2.0/custom-elements-es5-adapter.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es5%2Ces6%2Ces7"></script>
+        <!-- Load all the components -->
+       <script src="https://unpkg.com/@pearson-ux/pearson-web-components"></script>
+       <script src="https://unpkg.com/@pearson-ux/header"></script>
+       <script src="https://unpkg.com/@pearson-ux/footer"></script>
+       <!--font awesome-->
+       <script src="https://kit.fontawesome.com/768ccd9ae9.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+<!--header-->    
+    <div style="width:100%; background-color: #047A9C; " >
+        <pearson-header theme="dark" name="David ODey"> </pearson-header>
+    </div>
+    
+
+<!--main-->    
+    <div class="main-panel">
+        <div class="content-wrapper">
+            <div class="page-header">
+                <h1 class="gr-h1">OVERVIEW</h1>
+                 <span>Please read carefully before you start</span> 
+       </div>
+       <!--안내 가이드-->
+     <div class="row">
+       <div class="col-md-12 grid-margin">
+         <div class="card" >
+             <div class="card-body">
+               <h3 class="gr-h3 card-title"><i class="fas fa-rocket"></i> &nbsp;TOPIC - Universe
+                <ul class="overview-li">
+                      <li>01 - Question 1</li>
+                      <li>02 - Question 2</li>
+                      <li>03 - Question 3</li>
+                      <li>04 - Question 4</li>
+                      <li>05 - Question 5</li>
+                   </ul>
+                   <p class="gr-semi-bold">You have total 5 questions. And feedback will be display after compelte all 5 quiz.</p>
+             </div>
+         </div>
+     </div>
+</div>
+<div class="row ">
+    <div class="col-12 grid-margin d-flex justify-content-center">
+         <a class="gr-btn extra-large" style="background-color: #047A9C; color:#fff;"type="button" href="./template/quiz1.html">START</a>
+    </div>
+</div>   
+
+</div>
+</div>
+
+
+
+
+<!--footer-->
+    <div style="height:100px; background:#047A9C; bottom:0; position:fixed; width:100%">
+        <pearson-footer theme="dark" />
+    </div>  
+
+
+
+    <script>
+        (function (win, doc) {
+            'use strict';
+            doc.addEventListener("DOMContentLoaded", function(){
+              if (!document.getElementById('pe-icons-sprite')) {
+                var pe_ajax = new XMLHttpRequest();
+                pe_ajax.open("GET", "https://pearsonux.sfo2.cdn.digitaloceanspaces.com/css/p-icons-sprite-1.1.svg", true);
+                pe_ajax.responseType = "document";
+                pe_ajax.onload = function(e) {
+                  document.body.insertBefore(
+                          pe_ajax.responseXML.documentElement,
+                          document.body.childNodes[0]
+                  );
+                  const events = new Event('iconsLoaded');
+                  document.dispatchEvent(events);
+                };
+                pe_ajax.send();
+              }
+            });
+          })(window, document)
+    </script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Test Summary</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="../css/basic-style.css" />
+        <link rel="stylesheet" href="https://pearsonux.sfo2.cdn.digitaloceanspaces.com/css/gravity.css" />
+        <!--font awesome-->
+       <script src="https://kit.fontawesome.com/768ccd9ae9.js" crossorigin="anonymous"></script>
+        <!-- load tippy -->
+        <script src="https://unpkg.com/tippy.js@4"></script>
+        <!-- Moment JS dependancy - needed for datepicker, timepicker, and the full build -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-range/4.0.2/moment-range.js"></script>
+        <!-- IE Polyfills -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.2.0/webcomponents-loader.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.2.0/custom-elements-es5-adapter.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es5%2Ces6%2Ces7"></script>
+        <!-- Load all the components -->
+       <script src="https://unpkg.com/@pearson-ux/pearson-web-components"></script>
+       <script src="https://unpkg.com/@pearson-ux/header"></script>
+       <script src="https://unpkg.com/@pearson-ux/footer"></script>
+    </head>
+
+<body>
+<!--header-->    
+    <div style="width:100%; background-color: #047A9C; " >
+        <pearson-header theme="dark" name="David ODey"> </pearson-header>
+    </div>
+    
+<!--main-->    
+<div class="main-panel">
+    <div class="content-wrapper">
+
+         <div class="page-header">
+             <h1 class="gr-h1 gr-semi-bold"><i class="fas fa-award"></i>&nbsp; Final Answers</h1>
+                 <p class="text-info gr-semi-bold">Please compare with your answers</p>
+        </div>
+        
+<!--result dashboard-->
+<div class="row">
+         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 grid-margin stretch-card">
+         <div class="card" >
+            <h3 class="gr-h3 gr-semi-bold">Quiz 1</h3>
+             <div class="card-footer">  
+                <div class="card-body">
+                    <p id="result1"></p>
+                 </div>
+             </div>
+         </div>    
+     </div>
+       <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 grid-margin stretch-card">
+        <div class="card" >
+            <h3 class="gr-h3 gr-semi-bold">Quiz 2</h3>
+            <div class="card-footer">  
+                <div class="card-body">
+                    <p id="result2"></p>
+                 </div>
+            </div>
+        </div>    
+    </div>
+       <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 grid-margin stretch-card">
+        <div class="card">
+            <h3 class="gr-h3 gr-semi-bold">Quiz 3</h3>
+            <div class="card-footer">  
+                <div class="card-body">
+                    <p id="result3"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 grid-margin stretch-card">
+      <div class="card" >
+          <h3 class="gr-h3 gr-semi-bold">Quiz 4</h3>
+        <div class="card-footer">  
+            <div class="card-body">
+                <p id="result4"></p>
+            </div>
+        </div>
+      </div>    
+  </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 grid-margin stretch-card">
+     <div class="card" >
+          <h3 class="gr-h3 gr-semi-bold">Quiz 5</h3>
+        <div class="card-footer">  
+            <div class="card-body">
+                <p id="result5"></p>
+            </div>
+        </div>
+     </div>    
+ </div>
+ 
+</div>  
+
+<div class="row ">
+    <div class="col-12 grid-margin d-flex justify-content-center">
+        <a href="../index.html" ><button  class="gr-btn extra-large" type="button">GO MAIN</button></a>
+
+    </div>
+</div>   
+
+
+
+</div>
+</div>
+
+<!--footer-->
+<pearson-footer theme="dark" style="height:100px; background:#047A9C; width:100%; bottom: 0; position: relative;"/>
+
+<!--js link-->
+<script src="../js/summary.js"></script>
+</body>
+</html>

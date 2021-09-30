@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz - 4</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="../css/basic-style.css" />
+        <link rel="stylesheet" href="https://pearsonux.sfo2.cdn.digitaloceanspaces.com/css/gravity.css" />
+        <!--font awesome-->
+       <script src="https://kit.fontawesome.com/768ccd9ae9.js" crossorigin="anonymous"></script>
+        <!-- load tippy -->
+        <script src="https://unpkg.com/tippy.js@4"></script>
+        <!-- Moment JS dependancy - needed for datepicker, timepicker, and the full build -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-range/4.0.2/moment-range.js"></script>
+
+    </head>
+
+<body>
+<!--header-->    
+    <div style="width:100%; background-color: #047A9C; " >
+        <pearson-header theme="dark" name="David ODey"> </pearson-header>
+    </div>
+    
+
+<!--main-->    
+<div class="main-panel">
+    <div class="content-wrapper">
+
+         <div class="page-header">
+             <h1 class="gr-h1 gr-semi-bold"><i class="far fa-file-alt"></i>&nbsp; TOEFL <span id="type"></span></h1>
+                 <p class="text-info gr-semi-bold"> Question 4 Of 5</p>
+        </div>
+        
+       
+
+<!--quiz-->
+<div class="row">
+       <div class="col-md-7 grid-margin">
+         <div class="card" >
+             <div class="card-body">
+                <div class="card-header d-flex justify-content-between">   
+                    <h3 class="gr-h3 gr-semi-bold">Reading Part</h3>
+                     <!--Component (Linked to "component.js")-->
+                     <dictionary-hint >  
+                        <span slot="msg" id="dictionary"></span>
+                    </dictionary-hint> 
+                </div>
+                 <p id="main-quiz"></p><!--Test questions-->
+             </div>
+         </div>    
+     </div>
+  
+     <div class="col-md-5 grid-margin">
+        <div class="card bg-white">
+            <div class="card-body">
+              <h5 class="gr-h5 gr-semi-bold" ><i class="fab fa-quora"></i>. &nbsp; <span id="que"></span></h5>
+              <div class="btn-group-vertical " role="group" aria-label="Vertical radio toggle button group"  onclick=" btnAble()">
+                <!--Answer choices-->
+                <input type="radio" class="btn-check" name="radio" id="radio1" autocomplete="off">
+                <label class="btn" for="radio1" id="answer1"></label>
+                <input type="radio" class="btn-check" name="radio" id="radio2" autocomplete="off">
+                <label class="btn" for="radio2" id="answer2"></label>
+                <input type="radio" class="btn-check" name="radio" id="radio3" autocomplete="off">
+                <label class="btn" for="radio3" id="answer3"></label>
+                <input type="radio" class="btn-check" name="radio" id="radio4" autocomplete="off">
+                <label class="btn" for="radio4" id="answer4"></label>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<div class="row ">
+    <div class="col-12 grid-margin d-flex justify-content-between">
+        <a href="./quiz3.html" ><button  class="gr-btn extra-large" type="button">BACK</button></a>
+        <a href="./quiz5.html" ><button  class="gr-btn extra-large" type="button" id="next" style="background-color: #047A9C; color:#fff;" disabled>NEXT</button></a>
+    </div>
+</div>   
+
+                
+
+</div>
+</div>
+
+<!--footer-->
+<pearson-footer theme="dark" style="height:100px; background:#047A9C; width:100%; bottom: 0; position: relative;"/>
+
+<!--js link-->
+<script src="../js/quiz4.js"></script>
+<script src="../js/component.js"></script>
+</body>
+</html>
+
+
