@@ -4,6 +4,7 @@
             "type":"Reading Test",
             "read": "Technology is rapidly expanding the scope of capabilities for both professional and personal use; such is the case with smart phones. Professionals now have devices available to them capable of digital media, internet access, phone communication, multi-person scheduling and office tools for documents and presentations. Business people that are often mobile may maximize the use of these critical features on smart phones. Individuals who simply enjoy the luxury of multi-function devices often use these devices for frivolous pursuits such as downloading catchy ring tones, instant messaging about the latest gossip and looking up the world record for most cans crushed on one’s head during the Superbowl. This fusion of capabilities and increased availability of such devices could be a sign of a growing blend in society between work and personal life, or individuals could simply be taking a luxurious approach to their connectivity in personal lives",
             "question":"The term “frivolous” implies that the author",
+            "dictionary":"Frivolous : 1) characterized by lack of seriousness or sense, 2)self-indulgently carefree; unconcerned about or lacking any serious purpose, 3)of little or no weight, worth, or importance; not worthy of serious notice:",
             "result" : "3. believes that the average individual does not need a smart phone.",
             "answers": [
                 "is fascinated by the endless capabilities on smart phones.",
@@ -16,6 +17,7 @@
             "type":"Structure Test",
             "read": "For homes in typically colder geographic regions, it is particularly important to have effective and efficient heating systems.",
             "question":"Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.",
+            "dictionary":"Geographic : of or relating to the natural features, population, industries, etc., of a region or regions",
             "result":"4. People in typically colder geographic region",
             "answers": [
                 "For homes in typically colder geographic regions",
@@ -28,6 +30,7 @@
             "type":"Grammar Test",
             "read": "They decided that _______ leaving for Vancouver tomorrow.",
             "question":"Select the best word for the blank in the following sentence.",
+            "dictionary":"Vancouver : a large island in SW Canada, off the SW coast of British Columbia",
             "result":"3. they're",
             "answers": [
                 "are",
@@ -40,6 +43,7 @@
             "type":"Reading Test",
             "read": "Cities across the world are essentially blends of smaller cultural environments that lead people to have vastly different experiences. Each city typically contains a broad spectrum of dining establishments along with various art institutions like museums and theatres. Yet with all these blends of dining, art and night lives, what is the one characteristic that can distinguish a city? History. The undeniably unique history of each city provides rich traditions and a bond between the local people that overshadows any other city’s mélange of dining and art institutions.",
             "question":"In context, which word most closely defines mélange?",
+            "dictionary":"Distinguish : 1)to mark off as different ,  2)to recognize as distinct or different; recognize the salient or individual features or characteristics of, 3)to perceive clearly by sight or other sense",
             "result":"1. frivolous",
             "answers": [
                 "frivolous",
@@ -53,6 +57,7 @@
             "type":" Structure Test",
             "read": "Firefighters and police officers risk their lives often by stepping into the way of danger physically; therefore, professionals such as doctors and lawyers have an equally significant impact on individuals’ lives medically and legally.",
             "question":"Determine whether the underlined portion of the sentence below is correct or whether it needs to be revised.",
+            "dictionary":"Significant : 1)important and deserving of attention; of consequence, 2)relatively large in amount or quantity:, 3)having or expressing a meaning",
             "result":"2. nevertheless",
             "answers": [
                 "therefore",
