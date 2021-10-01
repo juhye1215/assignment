@@ -35,22 +35,20 @@
         <div class="content-wrapper">
             <div class="page-header">
                 <h1 class="gr-h1">OVERVIEW</h1>
-                 <span>Please read carefully before you start</span> 
+                 <span>Sed ut perspiciatis, totam rem aperiam eaque ipsa, quae ab illo  aspernatur aut odit aut fugit, </span> 
        </div>
-       <!--안내 가이드-->
+       <!--overview-->
      <div class="row">
        <div class="col-md-12 grid-margin">
          <div class="card" >
              <div class="card-body">
                <h3 class="gr-h3 card-title"><i class="fas fa-rocket"></i> &nbsp;TOPIC - Universe
                 <ul class="overview-li">
-                      <li>01 - Question 1</li>
-                      <li>02 - Question 2</li>
-                      <li>03 - Question 3</li>
-                      <li>04 - Question 4</li>
-                      <li>05 - Question 5</li>
+                      <li>Reading Test </li>
+                      <li>Structure Test </li>
+                      <li>Grammar Test</li>
                    </ul>
-                   <p class="gr-semi-bold">You have total 5 questions. And feedback will be display after compelte all 5 quiz.</p>
+                   <p class="gr-semi-bold">You have total 5 questions. And feedback will be display after finish all 5 quiz.</p>
              </div>
          </div>
      </div>
@@ -72,28 +70,5 @@
         <pearson-footer theme="dark" />
     </div>  
 
-
-
-    <script>
-        (function (win, doc) {
-            'use strict';
-            doc.addEventListener("DOMContentLoaded", function(){
-              if (!document.getElementById('pe-icons-sprite')) {
-                var pe_ajax = new XMLHttpRequest();
-                pe_ajax.open("GET", "https://pearsonux.sfo2.cdn.digitaloceanspaces.com/css/p-icons-sprite-1.1.svg", true);
-                pe_ajax.responseType = "document";
-                pe_ajax.onload = function(e) {
-                  document.body.insertBefore(
-                          pe_ajax.responseXML.documentElement,
-                          document.body.childNodes[0]
-                  );
-                  const events = new Event('iconsLoaded');
-                  document.dispatchEvent(events);
-                };
-                pe_ajax.send();
-              }
-            });
-          })(window, document)
-    </script>
 </body>
 </html>

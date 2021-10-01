@@ -24,7 +24,7 @@
     <div class="content-wrapper">
 
          <div class="page-header">
-             <h1 class="gr-h1 gr-semi-bold"><i class="far fa-file-alt"></i>&nbsp; TOEFL <span id="type"></span></h1>
+             <h1 class="gr-h1 gr-semi-bold"><i class="far fa-building"></i>&nbsp; TOEFL <span id="type"></span></h1>
                  <p class="text-info gr-semi-bold"> Question 5 Of 5</p>
         </div>
 
@@ -35,9 +35,9 @@
              <div class="card-body">
                 <div class="card-header d-flex justify-content-between">   
                     <h3 class="gr-h3 gr-semi-bold">Reading Part</h3>
-                    <!--Component (Linked to "component.js")-->
-                    <dictionary-hint >  
-                        <span slot="msg" id="dictionary"></span>
+                
+                    <dictionary-hint >  <!--Component (Linked to "component.js") BOOK ICON-->
+                        <span slot="msg" id="dictionary"></span><!--Dictionary import from JSON-->
                     </dictionary-hint> 
                 </div>
                  <p id="main-quiz"></p><!--Test questions-->
@@ -50,7 +50,7 @@
             <div class="card-body">
               <h5 class="gr-h5 gr-semi-bold" ><i class="fab fa-quora"></i>. &nbsp; <span id="que"></span></h5>
               <div class="btn-group-vertical " role="group" aria-label="Vertical radio toggle button group"  onclick=" btnAble() " >
-                <input type="radio" class="btn-check" name="radio" id="radio1" autocomplete="off">
+                <input type="radio" class="btn-check" name="radio" id="radio1" autocomplete="off"><!--Answer import from JSON -->
                 <label class="btn" for="radio1" id="answer1"></label>
                 <input type="radio" class="btn-check" name="radio" id="radio2" autocomplete="off">
                 <label class="btn" for="radio2" id="answer2"></label>
